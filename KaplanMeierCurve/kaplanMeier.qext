@@ -1,0 +1,13 @@
+{
+	"name" : "Kaplan-Meier Chart",
+	"description" : "Kaplan-Meier chart with censor data included. Place Days as Dimension, all censors, then all lines in the same order as their censor. Can modify tooltip info and x-axis to show days, weeks, months or years in the extension settings.",
+	"icon" : "line-chart",
+	"type" : "visualization",
+	"version": "1.0",
+	"author" : "Keyrus.US",
+	"homepage" : "http://www.keyrus.com/",
+	"keywords" : "qlik-sense, visualization",
+	"license" : "MIT",
+	"repository" : "",
+    "dependencies" : { "qlik-sense" : ">=2.1.x" }
+}

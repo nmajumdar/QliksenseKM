@@ -1,0 +1,84 @@
+.qv-object-kaplanMeier div.qv-object-content-container  {
+
+}
+
+
+.qv-object-kaplanMeier body {
+  font: 10px sans-serif;
+}
+
+.qv-object-kaplanMeier .axis path,
+.qv-object-kaplanMeier .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.qv-object-kaplanMeier .x.axis path {
+  display: none;
+}
+
+.qv-object-kaplanMeier .line {
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+.qv-object-kaplanMeier div.tooltip {   
+  position: absolute; 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: white;    
+  pointer-events: none;         
+}
+
+.qv-object-kaplanMeier div.censortooltip {   
+  position: absolute;           
+  text-align: center;              
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: rgba(0, 0, 0, 0.8);    
+  color: #fff;
+  pointer-events: none;         
+}
+
+.qv-object-kaplanMeier .overlay{
+	fill: none;
+	pointer-events: all;
+}
+
+.qv-object-kaplanMeier .focus circle{
+	fill:none;
+	stroke: steelblue;
+}
+
+.qv-object-kaplanMeier tr {
+	text-align: left;
+  border-bottom:1pt solid #8d8b7f;
+}
+.qv-object-kaplanMeier .tooltipTable {
+    border-collapse: collapse;
+    border: 1px solid #2f2e2a;
+    width: 200px;
+}
+.qv-object-kaplanMeier .dimHeader {
+  background-color: #C7D9E8;
+  font-weight: bold;
+  border-bottom:1pt solid #2f2e2a;
+}
+.qv-object-kaplanMeier .dataHeader {
+  background-color: #dfe1e9;
+  font-weight: bold;
+  border-bottom:1pt solid #2f2e2a;
+}
+.qv-object-kaplanMeier .surplusHeader {
+  background-color: #dfe1e9;
+  border-top:1pt solid #2f2e2a;
+  font-weight: bold;
+}
+.qv-object-kaplanMeier .surplusData {
+  background-color: #dfe1e9;
+}
+.qv-object-kaplanMeier .endData {
+  background-color: #dfe1e9;
+  border-bottom:1pt solid #2f2e2a;
+}
