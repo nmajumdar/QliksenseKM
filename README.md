@@ -1,5 +1,5 @@
 # QliksenseKM
-This is a Kaplan-Meier Chart for Qliksense. It includes censor marks and a tooltip that gives an overall summary of the status of each line, the amount of censors, and current state of each line.
+This is a Kaplan-Meier Chart for Qliksense developed by Keyrus US. It includes censor marks and a tooltip that gives an overall summary of the status of each line, the amount of censors, and current state of each line.
 
 # Usage
 This KM curve relies on daily data. Input days as the dimension, censor data for each line consecutively, then line data consecutively in the same order as their censors. 
