@@ -1,4 +1,4 @@
-# QliksenseKM
+# Overview
 This is a Kaplan-Meier Chart for Qliksense developed by Keyrus US. It includes censor marks and a tooltip that gives an overall summary of the status of each line, the amount of censors, and current state of each line.
 
 # Usage
